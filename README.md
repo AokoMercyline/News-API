@@ -36,6 +36,14 @@ News Api is a website application that is meant for busy individual to catch up 
 
  * python3.8 manage.py server
 
+ ## SUPPORT and CONTACT
+ * 0708434156
+ 
+ ## LICENSE AND COPYRIGHT
+[Mit License](https://opensource.org/licenses/MIT)2020 &copy; AokoMercyline
+
+
+
 
 
 
