@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-News Api is a website application that is meant for busy individual to catch up with afffairs currently happening worldwide,news are categorizes according to their sources and users are able to preview the news articles
+News Api is a website application that is meant for busy individual to catch up with afffairs currently happening worldwide,news are categorizes according to their sources and users are able to preview the news articles.
 
 ## AUTHOR
 
@@ -38,7 +38,7 @@ News Api is a website application that is meant for busy individual to catch up 
 
  ## SUPPORT and CONTACT
  * 0708434156
- 
+
  ## LICENSE AND COPYRIGHT
 [Mit License](https://opensource.org/licenses/MIT)2020 &copy; AokoMercyline
 
