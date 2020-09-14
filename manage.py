@@ -7,16 +7,12 @@ app = Flask(__name__)
 def index():
     news = NewsRequests()
     news= news.get_top_headlines( sources='')
-    
-    return render_template ('index.html', sport=sport_news['articles'])
-    # news= news.get_top_headlines( sources='Aljazeer-news')
     # return news
+    return render_template('index.html',articles=news['articles'])
     
-# @app.route('/education')
 
-# def education():
-#     n=NewsRequests()
-#     news_education
+
+    # return '<h1 style="color:red; text-align:center; font-size:70px; background-color:grey; height:20vh;" > World News </h1>'
 
 if __name__ == '__main__':
     app.run(debug = True)
