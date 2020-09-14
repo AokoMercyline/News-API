@@ -33,28 +33,7 @@
                 </div>
             </div>
             {% endfor %}
-<!-- 
-
-            <div class="col-md-4 d-flex" style="width: 24rem; flex-wrap: nowrap; justify-content: space-around;">
-                {% for article in articles %}
-                <div class="card-body">
-                    <img src="{{ article ['urlToImage']}}" alt="" width="350px" height="350px">
-                    <a href="{{ article['url']}}" target="_blank" rel="noopener noreferrer">
-                        <h5>{{article.title}}</h5>
-                    </a>
-                    <h5>{{ article.author }}</h5>
-                    <h5>{{ article.description }}</h5>
-                    <p style="color: red;">{{ article['description']}}</p>
-                    <h6>{{ article['publishedAt']}}</h6>
-                </div>
-
-
-                {% endfor %}
-            </div> -->
-
-        </div>
-        <div class="footer">
-            <!-- footer block here-->
+<!-- footer here -->
             {% block footer %} {% include 'footer.html' %} {% endblock %}
         </div>
 
