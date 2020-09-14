@@ -15,7 +15,7 @@ News Api is a website application that is meant for busy individual to catch up 
 * See all top headlines
 
 ## BEHAVIURAL DRIVEN DEVELOPMENT
-
+ * The user is able to view the headlines of different movies according to there categories and also go ahead and read more about the news in details.
 ## SKILLS
 
 * python3.8
