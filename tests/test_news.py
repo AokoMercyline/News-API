@@ -1,5 +1,6 @@
 import unittest
 from app.models import News
+
 class NewsTest(unittest.TestCase):
     '''
     Test Class to test the behaviour of the News class
@@ -12,6 +13,26 @@ class NewsTest(unittest.TestCase):
     def test_instance(self):
         self.assertTrue(isinstance(self.new_news,News))
         
-    # def __init__
+    def test_name(self):
+        name_var = self.new_news.name
+        self.assertTrue(name_var == "Kingkrusha")
+        
+    def test_title(self):
+        title_var = self.new_news.title
+        self.assertTrue(title_var == "Python Must Be Crazy")
+        
+    def test_description(self):
+        description_var = self.new_news.descripion
+        self.assertTrue(description_var == "A thrilling new Python Series")
+        
+    def test_publishedAt(self):
+        publishedAt_int = self.new_news.publishedAt
+        self.assertTrue(publishedAt_int == 129993)
+        
+    def test_url(self):
+        url_var = self.new_news.url
+        self.assertTrue(url_var == "")
+    
+    
 if __name__ == '__main__':
     unittest.main()

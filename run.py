@@ -1,11 +1,11 @@
 from flask import Flask,render_template
-from app.requests import News
+from app.requests import NewsRequests
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    news = News()
+    news = NewsRequests()
     news= news.get_top_headlines( sources='')
     # return news
     return render_template('index.html',articles=news['articles'])
