@@ -31,7 +31,7 @@ class NewsTest(unittest.TestCase):
         
     def test_url(self):
         url_var = self.new_news.url
-        self.assertTrue(url_var == "")
+        self.assertTrue(url_var == "url")
     
     
 if __name__ == '__main__':
